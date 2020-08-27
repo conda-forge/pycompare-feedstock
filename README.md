@@ -5,7 +5,7 @@ Home: https://github.com/jaketmp/pyCompare
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: A Python module for generating Bland-Altman plots to compare two sets of measurements.
 
