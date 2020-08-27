@@ -1,5 +1,5 @@
 {% set name = "pyCompare" %}
-{% set version = "1.4.1" %}
+{% set version = "1.5.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 593a3e6854d8ba3dd0e037500e109c691e8231ec30e93efdc33509314c91059e
+  sha256: 7fa46586838b47f57dc916e7895103bed25e279893d296eceab54751277d031d
 
 build:
   noarch: python
-  number: 1
-  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
+  number: 0
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
@@ -33,7 +33,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE.txt
-  summary: 'A Python module for generating Bland-Altman plots to compare two sets of measurements.'
+  summary: A Python module for generating Bland-Altman plots to compare two sets of measurements.
 
 extra:
   recipe-maintainers:
