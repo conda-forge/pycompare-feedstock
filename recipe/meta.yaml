@@ -1,5 +1,5 @@
 {% set name = "pyCompare" %}
-{% set version = "1.5.2" %}
+{% set version = "1.5.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 80342fe57b9522f62e5376c8fcac96eb5c9ae23baa433fd5a735997629b9069f
+  sha256: df69b06c95294a7476d321a2076fb0b5b7cf930ef433ae86119d5067116ecb5e
 
 build:
   noarch: python
